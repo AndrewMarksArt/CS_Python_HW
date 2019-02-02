@@ -1,0 +1,91 @@
+Clear Map
+-----------------
+#
+# Hashtag lines are optional comments
+#
+
+# state 0 with nothing N: go one step N
+0 x*** -> N 0
+
+# state 0 with something to the N: go W + into st 1
+# ** This will crash if picobot has a wall to the W! **
+0 N*X* -> W 1
+
+# state 0 in NE corner
+0 N*W* -> E 2
+
+
+# state 1 with nothing to the S: go one step S
+1 ***x -> S 1
+
+# state 1 with something to the S: stay put + into state 0
+1 ***S -> X 0
+
+# state 2 -- when in NW corner
+2 Nx** -> E 2
+
+# state 2 in NE corner
+2 NE** -> S 1
+
+===================================================================
+===================================================================
+===================================================================
+
+Maze
+-----------------
+
+# going North hand on east wall
+# state 0
+0 xE** -> N 0
+0 *x** -> E 1
+0 NEx* -> W 2
+0 NEWx -> S 3
+
+# going East hand on south wall
+# state 1
+1 *x*S -> E 1
+1 ***x -> S 3
+1 xE*S -> N 0
+1 NExS -> W 2
+
+
+# going West hand on north wall
+# state 2
+2 N*x* -> W 2
+2 x*** -> N 0
+2 N*Wx -> S 3
+2 NxWS -> E 1
+
+# going South hand on west wall
+# state 3
+3 **Wx -> S 3
+3 **x* -> W 2
+3 *xWS -> E 1
+3 xEWS -> N 0
+
+===================================================================
+===================================================================
+===================================================================
+
+Diamond
+-----------------
+0 XXXX -> N 0
+0 NxW* -> S 1
+0 NExx -> S 2
+0 NEWx -> S 2
+
+1 XXXX -> W 1
+1 NxWx -> S 2
+1 NxWS -> E 4
+
+2 XXXX -> S 2
+2 x*WS -> N 3
+2 xExS -> W 0
+
+3 XXXX -> W 3
+3 x*WS -> N 0
+3 NxWS -> E 4
+
+4 XXXX -> E 4
+4 NExS -> W 0
+
