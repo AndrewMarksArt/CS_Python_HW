@@ -6,31 +6,39 @@ import time
 weapons = ['rock', 'paper', 'scissors', 'lizard', 'spock']
 
 # message for who wins or a tie
-player_wins = 'How is this possible!!! You have bested me...'
-comp_wins = 'HA HA HA you lose!!! How did you ever think you could beat me!!!'
-tie = 'This cannot be... we have tied???!!! We must play again!!!'
+player_wins = ['How is this possible!!! You have bested me...',
+               'NOOOOOOO how did you defeat me? You must have cheated!',
+               '... you win. How about best 2 out of 3?']
+comp_wins = ['HA HA HA you lose!!! How did you ever think you could beat me!!!',
+             'You lose! That was pathetic, is that the best you can do?',
+             'I win, how did you think that would work?!... ']
+tie = ['This cannot be... we have tied???!!!',
+       'A tie?!! Let us play again!',
+       'Argh!!! a tie??? ... Again, we must play again']
+
+winner = ''
 
 # add delay for drama
-delay = 0.5
+delay = 0.65
 
 
 def check_who_wins(player, computer):
     """takes the user as player and comp as computer,
-    checks to see who won and prints out the tie, player_wins, or comp_wins message"""
+    checks to see and returns the winner"""
 
+    global winner
     if player == computer:
-        time.sleep(delay)
-        print(tie)
+        winner = 'tie'
     elif player == 'rock' and computer in ['scissors', 'lizard']\
             or player == 'paper' and computer in ['spock', 'rock']\
             or player == 'scissors' and computer in ['paper', 'lizard']\
             or player == 'lizard' and computer in ['spock', 'paper']\
             or player == 'spock' and computer in ['rock', 'scissors']:
-        time.sleep(delay)
-        print(player_wins)
+        winner = 'player'
     else:
-        time.sleep(delay)
-        print(comp_wins)
+        winner = 'comp'
+
+    return winner
 
 
 # welcome message and ask if the player wants to play
@@ -85,8 +93,14 @@ while True:
     print('You chose: ' + user)
     print('The computer chose: ' + comp)
 
-    # Check who wins
+    # Check who wins and print message
     check_who_wins(user, comp)
+    if winner == 'tie':
+        print(random.choice(tie))
+    elif winner == 'player':
+        print(random.choice(player_wins))
+    else:
+        print(random.choice(comp_wins))
 
     # asks the player if they want to play again
     while True:
