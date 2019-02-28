@@ -1,0 +1,21 @@
+Andrew Marks
+
+For me the most interesting idea was Watson's ability to parse and understand language
+which on Jeopardy is really impressive. I think most of us have used Google translate
+and laughed at the result showing just how difficult it can be for a computer to
+understand human languages and why so many companies are racing to perfect this technology.
+In terms of Jeopardy Watson didn't need to translate and know multiple languages but did
+have to be able to understand an answer and come up with a question which is very difficult.
+I would love to see how Watson would do in predicting prices at Sotheby's or Christies
+art auctions. My masters degree is in Arts Business and results from art auctions can be
+very interesting, the market is unregulated, you have unique objects with unique histories,
+very small samples and human emotion that all contribute to wild results. A project I have
+been working on is trying to predict prices with the goal of starting an investment group
+that buys and eventually flips contemporary art but the unpredictable nature of the market
+makes it very risky. Lastly the way Watson seems to think is by looking for connections
+between things and then ranking the probability or likelihood that is is correct which is
+similar to humans but only in an encyclopedia way, so much more of communication and human
+thinking is so much more. Specifically when it come to communication what we say or write
+is only a tiny part of what we are communicating, the context, our body language, sarcasim,
+etc. can all be misleading and contradicting which seems like it would result in lower
+probability understanding by Watson.

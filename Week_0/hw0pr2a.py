@@ -1,7 +1,6 @@
 import random
 import time
 
-
 # available weapons for the players to choose from
 weapons = ['rock', 'paper', 'scissors', 'lizard', 'spock']
 
@@ -17,14 +16,15 @@ tie = ['This cannot be... we have tied???!!!',
        'Argh!!! a tie??? ... Again, we must play again']
 
 winner = ''
-
+# play = ''
 # add delay for drama
 delay = 0.65
 
 
 def check_who_wins(player, computer):
     """takes the user as player and comp as computer,
-    checks to see and returns the winner"""
+    checks to see a
+    nd returns the winner"""
 
     global winner
     if player == computer:
@@ -51,7 +51,11 @@ print('Are you sure you want to play? ... [Y/N]')
 # While loop to see if the player said yes or no, or entered something invalid
 # Also prints out the rules
 while True:
-    play = input().upper()
+    try:
+        play = input().upper()
+    except EOFError:
+        play = ''
+
     if play == 'Y':
         print('You fool! You have just sealed your doom!')
         print()
