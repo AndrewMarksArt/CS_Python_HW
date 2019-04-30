@@ -358,4 +358,6 @@ def chord(f1, f2, f3, time_in_seconds):
     print("Playing new sound...")
     play('out.wav')
 
-chord(440.000, 523.251, 659.255, 1.0)
+# chord(440.000, 523.251, 659.255, 1.0)
+
+flipflop('swfaith.wav')

@@ -47,6 +47,8 @@ def rwsteps(start, low, high):
         print(location,'\n')
         return 1 + rwsteps(start + rs(), low, high)
 
+print(rwsteps(10, 0, 20))
+
 
 def rwposPlain(start, nsteps):
     """

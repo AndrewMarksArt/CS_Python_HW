@@ -1,0 +1,16 @@
+# hw8pr0
+# Andrew Marks
+
+I fully agree that algorithms can be problematic, they are made by humans and are an extension of the
+programmers logic and biases. All of us are biased to a certain extent and have been shaped by our experiences
+and it is unlikely that those biases and experiences wont effect the algorithms being writen. But Users and
+advertisers that uses these algorithms can be just as big of a problem as the programmers, users can game the
+system like when users on twitter trolled Microsoft's AI chat bot into parroting racist neo-nazi talking points
+in a matter of hours. For advertisers they might have internal data showing that men or another category click
+through and convert at higher rates, the business I ran for my family was originally targeted at elderly or
+people recovering from injury but we found new mothers in there 20s and 30s converted and spent significantly
+more money on our products so our advertising changed, so while our product could be used by anyone we targeted
+women in that age range more. In the article the ads being served to men more than women could be due to internal
+metrics or by racist companies and the best remedy seems to be more competition where bad / racist decisions
+would get punished but we also might need to accept that sometimes the data might be correct but not pc.
+

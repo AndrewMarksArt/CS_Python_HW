@@ -1,0 +1,15 @@
+I think Machine Learning/Deep Learning is overtouted at the moment and has a long way to go to deliver on some of the
+promise’s supporters have claimed. Since deep learning is supervised and relies on pattern recognition like a child or
+a normal person time and experience are important which makes be think that the tech hype cycle is a good way of
+thinking about ML/DL, however the idea that it is an inevitability is a bridge too far for me. I was just recently on a
+trip to Silicon Valley were I got to meet some great people from a lot of amazing companies but what I found interesting
+was that at most of them the sales and marketing teams were by far the largest in the company and I think this is why
+we see technology move through a cycle from inflated expectations to disillusionment and the technology that really works
+and adds value eventually gets used and is productive. Until then there is a lot of marketing buzz word bullshit and
+consulting hype that personally drives me crazy. Similar to ML/DL/AI is Blockchain which I have been interested in for
+a while and during the peak of the Bitcoin mania I went to a conference where in the first hour the word “Blockchain”
+was mentioned over 100 times without anyone every mentioning an actual use case or why they would need a Blockchain, I
+felt sick with the space and to my disgust some of the companies there went on to raise tens of millions of dollars for
+their startups. If ML/DL lives up to the hype it will take time and lots of hard work, and honestly the best thing that
+could probably happen is to slide down the hype cycle so the marketers and shills go away, and the engineers can get
+that work done.
