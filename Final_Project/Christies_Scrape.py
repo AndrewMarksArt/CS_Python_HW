@@ -10,13 +10,14 @@ christies_imp_mod_evening = "https://www.christies.com/salelanding/index.aspx?li
 christies_imp_mod_day = "https://www.christies.com/salelanding/index.aspx?lid=1&intsaleid=28068&dt=304201913323&saletitle="
 christies_contemporary_evening = "https://www.christies.com/salelanding/index.aspx?lid=1&intsaleid=28020&dt=3042019151828&saletitle="
 christies_contemporary_morning = "https://www.christies.com/salelanding/index.aspx?lid=1&intsaleid=28019&dt=3042019153918&saletitle="
+christies_contemporary_afternoon = "https://www.christies.com/salelanding/index.aspx?lid=1&intsaleid=28022&dt=3042019153918&saletitle="
 
 # Path for saving to CSV
-path = 'C:/Users/andre/PycharmProjects/CS_Python_HW/Final_Project/' + 'christies_contemporary_morning' + '.csv'
+path = 'C:/Users/andre/PycharmProjects/CS_Python_HW/Final_Project/' + 'christies_contemporary_afternoon' + '.csv'
 
 # Use URL from above, open a chrome browser, go to URL, then wait
 driver = webdriver.Chrome(ChromeDriverManager().install())
-driver.get(christies_contemporary_morning)
+driver.get(christies_contemporary_afternoon)
 driver.implicitly_wait(5)
 
 # click ok to cookies button
@@ -47,7 +48,8 @@ time.sleep(1)
 # element = driver.find_element_by_xpath('//*[@id="lot_6202501"]/div/div/a')
 # Contemporary evening
 # element = driver.find_element_by_xpath('//*[@id="lot_6205125"]/div/div/a')
-element = driver.find_element_by_xpath('//*[@id="lot_6204698"]/div/div/a')
+# element = driver.find_element_by_xpath('//*[@id="lot_6204698"]/div/div/a')
+element = driver.find_element_by_xpath('//*[@id="lot_6204865"]/div/div/a')
 element.click()
 
 lot_info = []
